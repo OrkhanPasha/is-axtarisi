@@ -6,8 +6,8 @@
 
 | Mövzu | Qərar |
 |---|---|
-| Platforma | Tək lokal HTML fayl, brauzerdə açılır. Server, quraşdırma, internet tələb olunmur. |
-| Məlumat mənbəyi | Bir JSON fayl (`vacancies.json`), formatı aşağıdadır. |
+| Platforma | Kitabxanasız lokal veb-səhifə (`panel/`: `index.html`, `style.css`, `app.js`). Mini server ilə açılır: `job_search` qovluğunda `python -m http.server 8000` → `http://localhost:8000/panel/`. İnternet tələb olunmur. |
+| Məlumat mənbəyi | `data/vakansiyalar.json`; formatı aşağıdadır. Fayl yoxdursa, `panel/demo.json` göstərilir (DEMO rejimi). |
 | Məlumat daxil etmə | Panel içindəki forma **və** JSON-u əllə redaktə etmək — hər ikisi işləməlidir. |
 | İnterfeys dili | İngilis dili. |
 | Həcm | 500-dən çox vakansiya; arxivləşdirmə və sürətli filtr vacibdir. |
@@ -15,12 +15,16 @@
 
 ## 2. Fayl ilə işləmə
 
-- Brauzer `file://` səhifəsindən yanındakı JSON-u avtomatik oxuya bilmir, ona görə JSON fayl **"Open file" düyməsi** və ya **sürüklə-burax** ilə açılır.
+- Yükləmə ardıcıllığı (nisbi yollar):
+  1. `../data/vakansiyalar.json` varsa → həmin fayl yüklənir.
+  2. Yoxdursa (404) → `demo.json` yüklənir və başlıqda qırmızı «DEMO» nişanı görünür. «Start my file» boş `data/vakansiyalar.json` yaradır, «Save» isə demo məlumatını həmin fayla yazır.
+  3. Səhifə `file://` ilə açılıbsa (brauzer oxumağı bloklayır) → server əmri ilə izah görünür; **"Open file"** və ya **sürüklə-burax** ilə JSON yenə açıla bilər.
 - Saxlama:
-  - Chrome/Edge-də eyni fayla birbaşa yazılır (File System Access API).
-  - Digər brauzerlərdə "Export" yenilənmiş JSON-u yükləmə kimi verir.
+  - Chrome/Edge-də: ilk «Save»-də `job_search/data` qovluğu seçilir (File System Access API). Seçim yadda qalır, sonrakı sessiyalarda yalnız icazə təsdiqi istənilir.
+  - Fayl panel açıq ikən kənarda (əllə) dəyişdirilibsə, üzərinə yazmazdan əvvəl təsdiq soruşulur.
+  - Digər brauzerlərdə "Export" yenilənmiş JSON-u yükləmə kimi verir; onu `data/` qovluğuna əllə qoymaq lazımdır.
 - Yadda saxlanmamış dəyişiklik olanda başlıqda xəbərdarlıq görünür. Səhifə bağlananda da təsdiq soruşulur.
-- Hər saxlamadan əvvəl köhnə versiya `vacancies.backup.json` kimi saxlanılır (birbaşa yazma rejimində).
+- Hər saxlamadan əvvəl köhnə versiya `data/vakansiyalar.backup.json` kimi saxlanılır (birbaşa yazma rejimində).
 - JSON yüklənəndə yoxlanılır. Səhv qeydlər (məs. tanınmayan status, səhv tarix) siyahı ilə göstərilir, qalan qeydlər yenə də yüklənir.
 
 ## 3. Statuslar
@@ -184,4 +188,4 @@ Qaydalar:
 
 - Default valyuta: `USD` (yeni vakansiya formasında avtomatik seçilir, dəyişdirilə bilər).
 - Reminders həddləri: deadline 3 gün, müsahibə 7 gün, follow-up 7 gün, no response 30 gün.
-- Başlanğıc fayl: boş `vacancies.json` (`"vacancies": []`). Fayl yoxdursa, panel "New file" ilə yaradır.
+- Başlanğıc: `data/vakansiyalar.json` yoxdur → panel DEMO rejimində açılır; «Start my file» boş fayl (`"vacancies": []`) yaradır.

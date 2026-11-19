@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Job Search Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <h1>Job Search</h1>
+      <span id="mode-badge" class="badge" hidden></span>
+      <span id="dirty" class="dirty" hidden>● Unsaved changes</span>
+    </div>
+    <div class="actions">
+      <button id="btn-new" class="btn primary" type="button">+ New vacancy</button>
+      <button id="btn-docs" class="btn" type="button">Documents</button>
+      <button id="btn-start" class="btn" type="button" hidden>Start my file</button>
+      <button id="btn-save" class="btn" type="button" title="Save (Ctrl+S)">Save</button>
+      <button id="btn-export" class="btn ghost" type="button">Export</button>
+      <button id="btn-open" class="btn ghost" type="button">Open file</button>
+      <input id="file-input" type="file" accept=".json,application/json" hidden>
+    </div>
+  </header>
+
+  <div id="notices"></div>
+
+  <section id="filters" class="filters" aria-label="Filters">
+    <div class="filters-row">
+      <input id="f-q" type="search" placeholder="Search title, company, notes, tags…" aria-label="Search">
+      <button id="f-toggle" class="btn ghost filters-toggle" type="button" aria-expanded="false" aria-controls="filters-more">Filters</button>
+    </div>
+    <div id="filters-more" class="filters-more">
+      <div id="f-status" class="chips" role="group" aria-label="Status"></div>
+      <div class="filter-grid">
+        <label>Country <select id="f-country"></select></label>
+        <label>City <select id="f-city"></select></label>
+        <label>Work mode <select id="f-mode"></select></label>
+        <label>Source <select id="f-source"></select></label>
+        <label>Priority <select id="f-priority"></select></label>
+        <label>Tag <select id="f-tag"></select></label>
+        <label>Applied from <input id="f-from" type="date"></label>
+        <label>Applied to <input id="f-to" type="date"></label>
+        <label class="check"><input id="f-archived" type="checkbox"> Show archived</label>
+        <button id="f-reset" class="btn ghost" type="button">Reset filters</button>
+      </div>
+    </div>
+  </section>
+
+  <nav class="tabs" role="tablist" aria-label="Views">
+    <button class="tab" type="button" role="tab" data-view="table">Table</button>
+    <button class="tab" type="button" role="tab" data-view="board">Board</button>
+    <button class="tab" type="button" role="tab" data-view="stats">Stats</button>
+    <button class="tab" type="button" role="tab" data-view="reminders">Reminders <span id="rem-badge" class="tab-badge" hidden></span></button>
+    <span id="count" class="count-line"></span>
+  </nav>
+
+  <main id="view" role="tabpanel"></main>
+
+  <dialog id="editor" class="dlg dlg-wide" aria-label="Vacancy editor"></dialog>
+  <dialog id="docs" class="dlg" aria-label="Documents"></dialog>
+  <dialog id="ask" class="dlg dlg-small">
+    <div class="dlg-body"><p id="ask-msg"></p></div>
+    <footer id="ask-actions" class="dlg-actions"></footer>
+  </dialog>
+
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

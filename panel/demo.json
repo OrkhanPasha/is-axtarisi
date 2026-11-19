@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-17T09:00",
+  "settings": {
+    "defaultCurrency": "USD",
+    "followUpDays": 7,
+    "noResponseDays": 30
+  },
+  "documents": [
+    { "id": "cv-data-analyst-v1", "type": "cv", "name": "CV – Data Analyst v1", "file": "Resume/CV_DataAnalyst_v1.pdf" },
+    { "id": "cv-bi-developer-v1", "type": "cv", "name": "CV – BI Developer v1", "file": null },
+    { "id": "cl-generic-en", "type": "cover_letter", "name": "Cover letter – generic EN", "file": null }
+  ],
+  "vacancies": [
+    {
+      "id": "v-0001",
+      "title": "Junior Data Analyst",
+      "company": "Nümunə MMC",
+      "url": "https://example.com/jobs/numune-junior-data-analyst",
+      "source": "boss.az",
+      "location": { "city": "Baku", "country": "Azerbaijan", "workMode": "hybrid" },
+      "salary": { "min": 1500, "max": 2000, "currency": "AZN", "period": "month" },
+      "priority": 2,
+      "tags": ["sql", "excel"],
+      "dates": { "posted": "2026-11-10", "deadline": "2026-11-19", "applied": null, "nextFollowUp": null },
+      "statusHistory": [
+        { "status": "saved", "date": "2026-11-14", "note": "Looks like a good entry-level fit" }
+      ],
+      "contacts": [],
+      "documentsSent": { "cv": null, "coverLetter": null },
+      "interviews": [],
+      "notes": "Requires Excel and basic SQL.",
+      "archived": false,
+      "createdAt": "2026-11-14",
+      "updatedAt": "2026-11-14"
+    },
+    {
+      "id": "v-0002",
+      "title": "BI Developer",
+      "company": "Misal Analitika MMC",
+      "url": "https://example.com/jobs/misal-bi-developer",
+      "source": "LinkedIn",
+      "location": { "city": "Toronto", "country": "Canada", "workMode": "remote" },
+      "salary": { "min": 55000, "max": 65000, "currency": "USD", "period": "year" },
+      "priority": 2,
+      "tags": ["power-bi", "dax"],
+      "dates": { "posted": "2026-10-08", "deadline": null, "applied": "2026-10-13", "nextFollowUp": null },
+      "statusHistory": [
+        { "status": "saved", "date": "2026-10-12", "note": null },
+        { "status": "applied", "date": "2026-10-13", "note": "Easy Apply on LinkedIn" }
+      ],
+      "contacts": [],
+      "documentsSent": { "cv": "cv-bi-developer-v1", "coverLetter": "cl-generic-en" },
+      "interviews": [],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-10-12",
+      "updatedAt": "2026-10-13"
+    },
+    {
+      "id": "v-0003",
+      "title": "Data Analyst",
+      "company": "Sınaq Texnologiya MMC",
+      "url": "https://example.com/jobs/sinaq-data-analyst",
+      "source": "Indeed",
+      "location": { "city": "Vancouver", "country": "Canada", "workMode": "onsite" },
+      "salary": { "min": 70000, "max": 80000, "currency": "CAD", "period": "year" },
+      "priority": 1,
+      "tags": ["python", "sql"],
+      "dates": { "posted": "2026-10-18", "deadline": null, "applied": "2026-10-22", "nextFollowUp": "2026-11-15" },
+      "statusHistory": [
+        { "status": "saved", "date": "2026-10-20", "note": null },
+        { "status": "applied", "date": "2026-10-22", "note": null },
+        { "status": "hr_screen", "date": "2026-10-30", "note": "Phone screen with HR" },
+        { "status": "test_task", "date": "2026-11-05", "note": "SQL + dashboard take-home, submitted 2026-11-08" }
+      ],
+      "contacts": [
+        { "name": "Sample Recruiter", "role": "Talent Acquisition", "email": "recruiter@example.com", "phone": null, "linkedin": null }
+      ],
+      "documentsSent": { "cv": "cv-data-analyst-v1", "coverLetter": null },
+      "interviews": [],
+      "notes": "Ask about feedback on the take-home task.",
+      "archived": false,
+      "createdAt": "2026-10-20",
+      "updatedAt": "2026-11-08"
+    },
+    {
+      "id": "v-0004",
+      "title": "Senior Data Analyst",
+      "company": "Örnək Bank ASC",
+      "url": "https://example.com/jobs/ornek-bank-senior-data-analyst",
+      "source": "Company website",
+      "location": { "city": "Baku", "country": "Azerbaijan", "workMode": "onsite" },
+      "salary": { "min": 3000, "max": 4000, "currency": "AZN", "period": "month" },
+      "priority": 1,
+      "tags": ["sql", "power-bi", "banking"],
+      "dates": { "posted": "2026-10-20", "deadline": "2026-11-01", "applied": "2026-10-25", "nextFollowUp": null },
+      "statusHistory": [
+        { "status": "saved", "date": "2026-10-24", "note": null },
+        { "status": "applied", "date": "2026-10-25", "note": null },
+        { "status": "hr_screen", "date": "2026-11-03", "note": null },
+        { "status": "interview", "date": "2026-11-12", "note": "First round done" }
+      ],
+      "contacts": [
+        { "name": "Leyla Misalova", "role": "HR Business Partner", "email": "leyla@example.com", "phone": null, "linkedin": null }
+      ],
+      "documentsSent": { "cv": "cv-data-analyst-v1", "coverLetter": "cl-generic-en" },
+      "interviews": [
+        { "date": "2026-11-12T15:00", "type": "hr", "with": "Leyla Misalova", "notes": "Culture fit, salary expectations", "outcome": "passed" },
+        { "date": "2026-11-20T10:00", "type": "technical", "with": "Analytics team lead", "notes": "SQL live coding + business case", "outcome": "pending" }
+      ],
+      "notes": "Prepare banking KPIs examples.",
+      "archived": false,
+      "createdAt": "2026-10-24",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "v-0005",
+      "title": "Reporting Analyst",
+      "company": "Demo Logistika MMC",
+      "url": "https://example.com/jobs/demo-logistika-reporting-analyst",
+      "source": "Referral",
+      "location": { "city": "Amsterdam", "country": "Netherlands", "workMode": "remote" },
+      "salary": { "min": 4000, "max": 4500, "currency": "USD", "period": "month" },
+      "priority": 2,
+      "tags": ["tableau", "excel"],
+      "dates": { "posted": "2026-09-15", "deadline": null, "applied": "2026-09-22", "nextFollowUp": "2026-11-24" },
+      "statusHistory": [
+        { "status": "saved", "date": "2026-09-20", "note": null },
+        { "status": "applied", "date": "2026-09-22", "note": "Referred by a former colleague" },
+        { "status": "hr_screen", "date": "2026-09-29", "note": null },
+        { "status": "interview", "date": "2026-10-08", "note": null },
+        { "status": "offer", "date": "2026-11-10", "note": "Offer received, reply by 2026-11-24" }
+      ],
+      "contacts": [],
+      "documentsSent": { "cv": "cv-data-analyst-v1", "coverLetter": null },
+      "interviews": [
+        { "date": "2026-10-08T11:00", "type": "video", "with": "Hiring manager", "notes": null, "outcome": "passed" },
+        { "date": "2026-10-21T14:00", "type": "final", "with": "Head of Operations", "notes": "Case presentation", "outcome": "passed" }
+      ],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-09-20",
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "v-0006",
+      "title": "Power BI Analyst",
+      "company": "Test Retail MMC",
+      "url": "https://example.com/jobs/test-retail-power-bi-analyst",
+      "source": "LinkedIn",
+      "location": { "city": "Baku", "country": "Azerbaijan", "workMode": "hybrid" },
+      "salary": { "min": 2200, "max": 2800, "currency": "AZN", "period": "month" },
+      "priority": 3,
+      "tags": ["power-bi"],
+      "dates": { "posted": "2026-09-20", "deadline": null, "applied": "2026-09-26", "nextFollowUp": null },
+      "statusHistory": [
+        { "status": "saved", "date": "2026-09-25", "note": null },
+        { "status": "applied", "date": "2026-09-26", "note": null },
+        { "status": "hr_screen", "date": "2026-10-03", "note": null },
+        { "status": "interview", "date": "2026-10-10", "note": null },
+        { "status": "rejected", "date": "2026-10-20", "note": "Chose a candidate with retail experience" }
+      ],
+      "contacts": [],
+      "documentsSent": { "cv": "cv-data-analyst-v1", "coverLetter": null },
+      "interviews": [
+        { "date": "2026-10-10T16:00", "type": "technical", "with": "BI team", "notes": "DAX questions", "outcome": "failed" }
+      ],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-10-20"
+    }
+  ]
+}
