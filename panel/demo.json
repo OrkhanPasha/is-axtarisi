@@ -1,15 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T09:00",
+  "updatedAt": "2026-11-19T09:00",
   "settings": {
     "defaultCurrency": "USD",
     "followUpDays": 7,
     "noResponseDays": 30
   },
   "documents": [
-    { "id": "cv-data-analyst-v1", "type": "cv", "name": "CV – Data Analyst v1", "file": "Resume/CV_DataAnalyst_v1.pdf" },
-    { "id": "cv-bi-developer-v1", "type": "cv", "name": "CV – BI Developer v1", "file": null },
-    { "id": "cl-generic-en", "type": "cover_letter", "name": "Cover letter – generic EN", "file": null }
+    {
+      "id": "cv-data-analyst-v1",
+      "type": "cv",
+      "name": "CV – Data Analyst v1",
+      "file": "Resume/CV_DataAnalyst_v1.pdf"
+    },
+    {
+      "id": "cv-bi-developer-v1",
+      "type": "cv",
+      "name": "CV – BI Developer v1",
+      "file": null
+    },
+    {
+      "id": "cl-generic-en",
+      "type": "cover_letter",
+      "name": "Cover letter – generic EN",
+      "file": null
+    }
   ],
   "vacancies": [
     {
@@ -18,16 +33,40 @@
       "company": "Nümunə MMC",
       "url": "https://example.com/jobs/numune-junior-data-analyst",
       "source": "boss.az",
-      "location": { "city": "Baku", "country": "Azerbaijan", "workMode": "hybrid" },
-      "salary": { "min": 1500, "max": 2000, "currency": "AZN", "period": "month" },
+      "location": {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "workMode": "hybrid"
+      },
+      "salary": {
+        "min": 1500,
+        "max": 2000,
+        "currency": "AZN",
+        "period": "month"
+      },
       "priority": 2,
-      "tags": ["sql", "excel"],
-      "dates": { "posted": "2026-11-10", "deadline": "2026-11-19", "applied": null, "nextFollowUp": null },
+      "tags": [
+        "sql",
+        "excel"
+      ],
+      "dates": {
+        "posted": "2026-11-10",
+        "deadline": "2026-11-19",
+        "applied": null,
+        "nextFollowUp": null
+      },
       "statusHistory": [
-        { "status": "saved", "date": "2026-11-14", "note": "Looks like a good entry-level fit" }
+        {
+          "status": "saved",
+          "date": "2026-11-14",
+          "note": "Looks like a good entry-level fit"
+        }
       ],
       "contacts": [],
-      "documentsSent": { "cv": null, "coverLetter": null },
+      "documentsSent": {
+        "cv": null,
+        "coverLetter": null
+      },
       "interviews": [],
       "notes": "Requires Excel and basic SQL.",
       "archived": false,
@@ -40,17 +79,45 @@
       "company": "Misal Analitika MMC",
       "url": "https://example.com/jobs/misal-bi-developer",
       "source": "LinkedIn",
-      "location": { "city": "Toronto", "country": "Canada", "workMode": "remote" },
-      "salary": { "min": 55000, "max": 65000, "currency": "USD", "period": "year" },
+      "location": {
+        "city": "Toronto",
+        "country": "Canada",
+        "workMode": "remote"
+      },
+      "salary": {
+        "min": 55000,
+        "max": 65000,
+        "currency": "USD",
+        "period": "year"
+      },
       "priority": 2,
-      "tags": ["power-bi", "dax"],
-      "dates": { "posted": "2026-10-08", "deadline": null, "applied": "2026-10-13", "nextFollowUp": null },
+      "tags": [
+        "power-bi",
+        "dax"
+      ],
+      "dates": {
+        "posted": "2026-10-08",
+        "deadline": null,
+        "applied": "2026-10-13",
+        "nextFollowUp": null
+      },
       "statusHistory": [
-        { "status": "saved", "date": "2026-10-12", "note": null },
-        { "status": "applied", "date": "2026-10-13", "note": "Easy Apply on LinkedIn" }
+        {
+          "status": "saved",
+          "date": "2026-10-12",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-10-13",
+          "note": "Easy Apply on LinkedIn"
+        }
       ],
       "contacts": [],
-      "documentsSent": { "cv": "cv-bi-developer-v1", "coverLetter": "cl-generic-en" },
+      "documentsSent": {
+        "cv": "cv-bi-developer-v1",
+        "coverLetter": "cl-generic-en"
+      },
       "interviews": [],
       "notes": null,
       "archived": false,
@@ -63,21 +130,63 @@
       "company": "Sınaq Texnologiya MMC",
       "url": "https://example.com/jobs/sinaq-data-analyst",
       "source": "Indeed",
-      "location": { "city": "Vancouver", "country": "Canada", "workMode": "onsite" },
-      "salary": { "min": 70000, "max": 80000, "currency": "CAD", "period": "year" },
+      "location": {
+        "city": "Vancouver",
+        "country": "Canada",
+        "workMode": "onsite"
+      },
+      "salary": {
+        "min": 70000,
+        "max": 80000,
+        "currency": "CAD",
+        "period": "year"
+      },
       "priority": 1,
-      "tags": ["python", "sql"],
-      "dates": { "posted": "2026-10-18", "deadline": null, "applied": "2026-10-22", "nextFollowUp": "2026-11-15" },
+      "tags": [
+        "python",
+        "sql"
+      ],
+      "dates": {
+        "posted": "2026-10-18",
+        "deadline": null,
+        "applied": "2026-10-22",
+        "nextFollowUp": "2026-11-15"
+      },
       "statusHistory": [
-        { "status": "saved", "date": "2026-10-20", "note": null },
-        { "status": "applied", "date": "2026-10-22", "note": null },
-        { "status": "hr_screen", "date": "2026-10-30", "note": "Phone screen with HR" },
-        { "status": "test_task", "date": "2026-11-05", "note": "SQL + dashboard take-home, submitted 2026-11-08" }
+        {
+          "status": "saved",
+          "date": "2026-10-20",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-10-22",
+          "note": null
+        },
+        {
+          "status": "hr_screen",
+          "date": "2026-10-30",
+          "note": "Phone screen with HR"
+        },
+        {
+          "status": "test_task",
+          "date": "2026-11-05",
+          "note": "SQL + dashboard take-home, submitted 2026-11-08"
+        }
       ],
       "contacts": [
-        { "name": "Sample Recruiter", "role": "Talent Acquisition", "email": "recruiter@example.com", "phone": null, "linkedin": null }
+        {
+          "name": "Sample Recruiter",
+          "role": "Talent Acquisition",
+          "email": "recruiter@example.com",
+          "phone": null,
+          "linkedin": null
+        }
       ],
-      "documentsSent": { "cv": "cv-data-analyst-v1", "coverLetter": null },
+      "documentsSent": {
+        "cv": "cv-data-analyst-v1",
+        "coverLetter": null
+      },
       "interviews": [],
       "notes": "Ask about feedback on the take-home task.",
       "archived": false,
@@ -90,24 +199,79 @@
       "company": "Örnək Bank ASC",
       "url": "https://example.com/jobs/ornek-bank-senior-data-analyst",
       "source": "Company website",
-      "location": { "city": "Baku", "country": "Azerbaijan", "workMode": "onsite" },
-      "salary": { "min": 3000, "max": 4000, "currency": "AZN", "period": "month" },
+      "location": {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "workMode": "onsite"
+      },
+      "salary": {
+        "min": 3000,
+        "max": 4000,
+        "currency": "AZN",
+        "period": "month"
+      },
       "priority": 1,
-      "tags": ["sql", "power-bi", "banking"],
-      "dates": { "posted": "2026-10-20", "deadline": "2026-11-01", "applied": "2026-10-25", "nextFollowUp": null },
+      "tags": [
+        "sql",
+        "power-bi",
+        "banking"
+      ],
+      "dates": {
+        "posted": "2026-10-20",
+        "deadline": "2026-11-01",
+        "applied": "2026-10-25",
+        "nextFollowUp": null
+      },
       "statusHistory": [
-        { "status": "saved", "date": "2026-10-24", "note": null },
-        { "status": "applied", "date": "2026-10-25", "note": null },
-        { "status": "hr_screen", "date": "2026-11-03", "note": null },
-        { "status": "interview", "date": "2026-11-12", "note": "First round done" }
+        {
+          "status": "saved",
+          "date": "2026-10-24",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-10-25",
+          "note": null
+        },
+        {
+          "status": "hr_screen",
+          "date": "2026-11-03",
+          "note": null
+        },
+        {
+          "status": "interview",
+          "date": "2026-11-12",
+          "note": "First round done"
+        }
       ],
       "contacts": [
-        { "name": "Leyla Misalova", "role": "HR Business Partner", "email": "leyla@example.com", "phone": null, "linkedin": null }
+        {
+          "name": "Leyla Misalova",
+          "role": "HR Business Partner",
+          "email": "leyla@example.com",
+          "phone": null,
+          "linkedin": null
+        }
       ],
-      "documentsSent": { "cv": "cv-data-analyst-v1", "coverLetter": "cl-generic-en" },
+      "documentsSent": {
+        "cv": "cv-data-analyst-v1",
+        "coverLetter": "cl-generic-en"
+      },
       "interviews": [
-        { "date": "2026-11-12T15:00", "type": "hr", "with": "Leyla Misalova", "notes": "Culture fit, salary expectations", "outcome": "passed" },
-        { "date": "2026-11-20T10:00", "type": "technical", "with": "Analytics team lead", "notes": "SQL live coding + business case", "outcome": "pending" }
+        {
+          "date": "2026-11-12T15:00",
+          "type": "hr",
+          "with": "Leyla Misalova",
+          "notes": "Culture fit, salary expectations",
+          "outcome": "passed"
+        },
+        {
+          "date": "2026-11-20T10:00",
+          "type": "technical",
+          "with": "Analytics team lead",
+          "notes": "SQL live coding + business case",
+          "outcome": "pending"
+        }
       ],
       "notes": "Prepare banking KPIs examples.",
       "archived": false,
@@ -120,23 +284,75 @@
       "company": "Demo Logistika MMC",
       "url": "https://example.com/jobs/demo-logistika-reporting-analyst",
       "source": "Referral",
-      "location": { "city": "Amsterdam", "country": "Netherlands", "workMode": "remote" },
-      "salary": { "min": 4000, "max": 4500, "currency": "USD", "period": "month" },
+      "location": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "workMode": "remote"
+      },
+      "salary": {
+        "min": 4000,
+        "max": 4500,
+        "currency": "USD",
+        "period": "month"
+      },
       "priority": 2,
-      "tags": ["tableau", "excel"],
-      "dates": { "posted": "2026-09-15", "deadline": null, "applied": "2026-09-22", "nextFollowUp": "2026-11-24" },
+      "tags": [
+        "tableau",
+        "excel"
+      ],
+      "dates": {
+        "posted": "2026-09-15",
+        "deadline": null,
+        "applied": "2026-09-22",
+        "nextFollowUp": "2026-11-24"
+      },
       "statusHistory": [
-        { "status": "saved", "date": "2026-09-20", "note": null },
-        { "status": "applied", "date": "2026-09-22", "note": "Referred by a former colleague" },
-        { "status": "hr_screen", "date": "2026-09-29", "note": null },
-        { "status": "interview", "date": "2026-10-08", "note": null },
-        { "status": "offer", "date": "2026-11-10", "note": "Offer received, reply by 2026-11-24" }
+        {
+          "status": "saved",
+          "date": "2026-09-20",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-09-22",
+          "note": "Referred by a former colleague"
+        },
+        {
+          "status": "hr_screen",
+          "date": "2026-09-29",
+          "note": null
+        },
+        {
+          "status": "interview",
+          "date": "2026-10-08",
+          "note": null
+        },
+        {
+          "status": "offer",
+          "date": "2026-11-10",
+          "note": "Offer received, reply by 2026-11-24"
+        }
       ],
       "contacts": [],
-      "documentsSent": { "cv": "cv-data-analyst-v1", "coverLetter": null },
+      "documentsSent": {
+        "cv": "cv-data-analyst-v1",
+        "coverLetter": null
+      },
       "interviews": [
-        { "date": "2026-10-08T11:00", "type": "video", "with": "Hiring manager", "notes": null, "outcome": "passed" },
-        { "date": "2026-10-21T14:00", "type": "final", "with": "Head of Operations", "notes": "Case presentation", "outcome": "passed" }
+        {
+          "date": "2026-10-08T11:00",
+          "type": "video",
+          "with": "Hiring manager",
+          "notes": null,
+          "outcome": "passed"
+        },
+        {
+          "date": "2026-10-21T14:00",
+          "type": "final",
+          "with": "Head of Operations",
+          "notes": "Case presentation",
+          "outcome": "passed"
+        }
       ],
       "notes": null,
       "archived": false,
@@ -149,27 +365,1248 @@
       "company": "Test Retail MMC",
       "url": "https://example.com/jobs/test-retail-power-bi-analyst",
       "source": "LinkedIn",
-      "location": { "city": "Baku", "country": "Azerbaijan", "workMode": "hybrid" },
-      "salary": { "min": 2200, "max": 2800, "currency": "AZN", "period": "month" },
+      "location": {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "workMode": "hybrid"
+      },
+      "salary": {
+        "min": 2200,
+        "max": 2800,
+        "currency": "AZN",
+        "period": "month"
+      },
       "priority": 3,
-      "tags": ["power-bi"],
-      "dates": { "posted": "2026-09-20", "deadline": null, "applied": "2026-09-26", "nextFollowUp": null },
+      "tags": [
+        "power-bi"
+      ],
+      "dates": {
+        "posted": "2026-09-20",
+        "deadline": null,
+        "applied": "2026-09-26",
+        "nextFollowUp": null
+      },
       "statusHistory": [
-        { "status": "saved", "date": "2026-09-25", "note": null },
-        { "status": "applied", "date": "2026-09-26", "note": null },
-        { "status": "hr_screen", "date": "2026-10-03", "note": null },
-        { "status": "interview", "date": "2026-10-10", "note": null },
-        { "status": "rejected", "date": "2026-10-20", "note": "Chose a candidate with retail experience" }
+        {
+          "status": "saved",
+          "date": "2026-09-25",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-09-26",
+          "note": null
+        },
+        {
+          "status": "hr_screen",
+          "date": "2026-10-03",
+          "note": null
+        },
+        {
+          "status": "interview",
+          "date": "2026-10-10",
+          "note": null
+        },
+        {
+          "status": "rejected",
+          "date": "2026-10-20",
+          "note": "Chose a candidate with retail experience"
+        }
       ],
       "contacts": [],
-      "documentsSent": { "cv": "cv-data-analyst-v1", "coverLetter": null },
+      "documentsSent": {
+        "cv": "cv-data-analyst-v1",
+        "coverLetter": null
+      },
       "interviews": [
-        { "date": "2026-10-10T16:00", "type": "technical", "with": "BI team", "notes": "DAX questions", "outcome": "failed" }
+        {
+          "date": "2026-10-10T16:00",
+          "type": "technical",
+          "with": "BI team",
+          "notes": "DAX questions",
+          "outcome": "failed"
+        }
       ],
       "notes": null,
       "archived": false,
       "createdAt": "2026-09-25",
       "updatedAt": "2026-10-20"
+    },
+    {
+      "id": "v-0007",
+      "title": "Data Analyst Intern",
+      "company": "Nümunə Təhsil MMC",
+      "url": "https://example.com/jobs/nu-mun-t-hsil-mmc-data-analyst-intern",
+      "source": "boss.az",
+      "location": {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "workMode": "hybrid"
+      },
+      "salary": {
+        "min": 800,
+        "max": 1000,
+        "currency": "AZN",
+        "period": "month"
+      },
+      "priority": 3,
+      "tags": [
+        "excel"
+      ],
+      "dates": {
+        "posted": "2026-11-14",
+        "deadline": "2026-11-30",
+        "applied": null,
+        "nextFollowUp": null
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-11-17",
+          "note": null
+        }
+      ],
+      "contacts": [],
+      "documentsSent": {
+        "cv": null,
+        "coverLetter": null
+      },
+      "interviews": [],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-11-17",
+      "updatedAt": "2026-11-17"
+    },
+    {
+      "id": "v-0008",
+      "title": "Analytics Engineer",
+      "company": "Misal Data Lab MMC",
+      "url": "https://example.com/jobs/misal-data-lab-mmc-analytics-engineer",
+      "source": "LinkedIn",
+      "location": {
+        "city": "Toronto",
+        "country": "Canada",
+        "workMode": "remote"
+      },
+      "salary": {
+        "min": 85000,
+        "max": 100000,
+        "currency": "CAD",
+        "period": "year"
+      },
+      "priority": 1,
+      "tags": [
+        "dbt",
+        "sql",
+        "python"
+      ],
+      "dates": {
+        "posted": "2026-11-15",
+        "deadline": "2026-11-21",
+        "applied": null,
+        "nextFollowUp": null
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-11-18",
+          "note": "Strong match, apply this week"
+        }
+      ],
+      "contacts": [],
+      "documentsSent": {
+        "cv": null,
+        "coverLetter": null
+      },
+      "interviews": [],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-11-18",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "v-0009",
+      "title": "Marketing Data Analyst",
+      "company": "Sınaq Media MMC",
+      "url": "https://example.com/jobs/s-naq-media-mmc-marketing-data-analyst",
+      "source": "hh.az",
+      "location": {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "workMode": "hybrid"
+      },
+      "salary": {
+        "min": 1800,
+        "max": 2400,
+        "currency": "AZN",
+        "period": "month"
+      },
+      "priority": 2,
+      "tags": [
+        "sql",
+        "google-analytics"
+      ],
+      "dates": {
+        "posted": "2026-11-09",
+        "deadline": null,
+        "applied": null,
+        "nextFollowUp": null
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-11-12",
+          "note": null
+        }
+      ],
+      "contacts": [],
+      "documentsSent": {
+        "cv": null,
+        "coverLetter": null
+      },
+      "interviews": [],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-11-12",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "v-0010",
+      "title": "BI Analyst",
+      "company": "Örnək Sığorta ASC",
+      "url": "https://example.com/jobs/o-rn-k-s-g-orta-asc-bi-analyst",
+      "source": "Company website",
+      "location": {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "workMode": "onsite"
+      },
+      "salary": {
+        "min": 2500,
+        "max": 3200,
+        "currency": "AZN",
+        "period": "month"
+      },
+      "priority": 2,
+      "tags": [
+        "power-bi",
+        "sql"
+      ],
+      "dates": {
+        "posted": "2026-11-10",
+        "deadline": null,
+        "applied": "2026-11-14",
+        "nextFollowUp": null
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-11-13",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-11-14",
+          "note": null
+        }
+      ],
+      "contacts": [],
+      "documentsSent": {
+        "cv": "cv-bi-developer-v1",
+        "coverLetter": null
+      },
+      "interviews": [],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-11-13",
+      "updatedAt": "2026-11-14"
+    },
+    {
+      "id": "v-0011",
+      "title": "Data Analyst",
+      "company": "Test Telekom MMC",
+      "url": "https://example.com/jobs/test-telekom-mmc-data-analyst",
+      "source": "LinkedIn",
+      "location": {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "workMode": "hybrid"
+      },
+      "salary": {
+        "min": 2000,
+        "max": 2600,
+        "currency": "AZN",
+        "period": "month"
+      },
+      "priority": 2,
+      "tags": [
+        "sql",
+        "python"
+      ],
+      "dates": {
+        "posted": "2026-11-05",
+        "deadline": null,
+        "applied": "2026-11-09",
+        "nextFollowUp": null
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-11-08",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-11-09",
+          "note": null
+        }
+      ],
+      "contacts": [],
+      "documentsSent": {
+        "cv": "cv-data-analyst-v1",
+        "coverLetter": "cl-generic-en"
+      },
+      "interviews": [],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-11-08",
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "v-0012",
+      "title": "Business Intelligence Developer",
+      "company": "Demo E-ticarət MMC",
+      "url": "https://example.com/jobs/demo-e-ticar-t-mmc-business-intelligence-developer",
+      "source": "Indeed",
+      "location": {
+        "city": "Vancouver",
+        "country": "Canada",
+        "workMode": "hybrid"
+      },
+      "salary": {
+        "min": 75000,
+        "max": 90000,
+        "currency": "CAD",
+        "period": "year"
+      },
+      "priority": 1,
+      "tags": [
+        "power-bi",
+        "azure"
+      ],
+      "dates": {
+        "posted": "2026-11-12",
+        "deadline": null,
+        "applied": "2026-11-16",
+        "nextFollowUp": null
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-11-15",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-11-16",
+          "note": "Tailored CV for e-commerce"
+        }
+      ],
+      "contacts": [],
+      "documentsSent": {
+        "cv": "cv-bi-developer-v1",
+        "coverLetter": "cl-generic-en"
+      },
+      "interviews": [],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-11-15",
+      "updatedAt": "2026-11-16"
+    },
+    {
+      "id": "v-0013",
+      "title": "Junior BI Developer",
+      "company": "Nümunə Enerji ASC",
+      "url": "https://example.com/jobs/nu-mun-enerji-asc-junior-bi-developer",
+      "source": "boss.az",
+      "location": {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "workMode": "onsite"
+      },
+      "salary": {
+        "min": 1600,
+        "max": 2000,
+        "currency": "AZN",
+        "period": "month"
+      },
+      "priority": 3,
+      "tags": [
+        "power-bi"
+      ],
+      "dates": {
+        "posted": "2026-11-13",
+        "deadline": null,
+        "applied": "2026-11-17",
+        "nextFollowUp": null
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-11-16",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-11-17",
+          "note": null
+        }
+      ],
+      "contacts": [],
+      "documentsSent": {
+        "cv": "cv-bi-developer-v1",
+        "coverLetter": null
+      },
+      "interviews": [],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-11-16",
+      "updatedAt": "2026-11-17"
+    },
+    {
+      "id": "v-0014",
+      "title": "Reporting Specialist",
+      "company": "Misal Turizm MMC",
+      "url": "https://example.com/jobs/misal-turizm-mmc-reporting-specialist",
+      "source": "Referral",
+      "location": {
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "workMode": "onsite"
+      },
+      "salary": {
+        "min": 3500,
+        "max": 4200,
+        "currency": "USD",
+        "period": "month"
+      },
+      "priority": 2,
+      "tags": [
+        "excel",
+        "tableau"
+      ],
+      "dates": {
+        "posted": "2026-11-07",
+        "deadline": null,
+        "applied": "2026-11-11",
+        "nextFollowUp": "2026-11-25"
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-11-10",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-11-11",
+          "note": "Referred by a friend"
+        }
+      ],
+      "contacts": [],
+      "documentsSent": {
+        "cv": "cv-data-analyst-v1",
+        "coverLetter": null
+      },
+      "interviews": [],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-11-10",
+      "updatedAt": "2026-11-11"
+    },
+    {
+      "id": "v-0015",
+      "title": "Data Analyst",
+      "company": "Sınaq Fintech MMC",
+      "url": "https://example.com/jobs/s-naq-fintech-mmc-data-analyst",
+      "source": "LinkedIn",
+      "location": {
+        "city": null,
+        "country": "Canada",
+        "workMode": "remote"
+      },
+      "salary": {
+        "min": 70000,
+        "max": 80000,
+        "currency": "USD",
+        "period": "year"
+      },
+      "priority": 1,
+      "tags": [
+        "sql",
+        "python",
+        "fintech"
+      ],
+      "dates": {
+        "posted": "2026-10-25",
+        "deadline": null,
+        "applied": "2026-10-29",
+        "nextFollowUp": null
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-10-28",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-10-29",
+          "note": null
+        },
+        {
+          "status": "hr_screen",
+          "date": "2026-11-11",
+          "note": "30-min recruiter call"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Sample Recruiter",
+          "role": "Recruiter",
+          "email": "talent@example.com",
+          "phone": null,
+          "linkedin": null
+        }
+      ],
+      "documentsSent": {
+        "cv": "cv-data-analyst-v1",
+        "coverLetter": "cl-generic-en"
+      },
+      "interviews": [],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-10-28",
+      "updatedAt": "2026-11-11"
+    },
+    {
+      "id": "v-0016",
+      "title": "Product Analyst",
+      "company": "Demo Avto MMC",
+      "url": "https://example.com/jobs/demo-avto-mmc-product-analyst",
+      "source": "hh.az",
+      "location": {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "workMode": "hybrid"
+      },
+      "salary": {
+        "min": 2200,
+        "max": 3000,
+        "currency": "AZN",
+        "period": "month"
+      },
+      "priority": 2,
+      "tags": [
+        "sql",
+        "ab-testing"
+      ],
+      "dates": {
+        "posted": "2026-10-29",
+        "deadline": null,
+        "applied": "2026-11-03",
+        "nextFollowUp": null
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-11-01",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-11-03",
+          "note": null
+        },
+        {
+          "status": "hr_screen",
+          "date": "2026-11-13",
+          "note": null
+        }
+      ],
+      "contacts": [],
+      "documentsSent": {
+        "cv": "cv-data-analyst-v1",
+        "coverLetter": null
+      },
+      "interviews": [],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-11-01",
+      "updatedAt": "2026-11-13"
+    },
+    {
+      "id": "v-0017",
+      "title": "Supply Chain Analyst",
+      "company": "Test Qida MMC",
+      "url": "https://example.com/jobs/test-qida-mmc-supply-chain-analyst",
+      "source": "Company website",
+      "location": {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "workMode": "onsite"
+      },
+      "salary": {
+        "min": 1900,
+        "max": 2500,
+        "currency": "AZN",
+        "period": "month"
+      },
+      "priority": 3,
+      "tags": [
+        "excel",
+        "sql"
+      ],
+      "dates": {
+        "posted": "2026-10-27",
+        "deadline": null,
+        "applied": "2026-11-02",
+        "nextFollowUp": "2026-11-18"
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-10-30",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-11-02",
+          "note": null
+        },
+        {
+          "status": "hr_screen",
+          "date": "2026-11-10",
+          "note": "HR promised feedback in a week"
+        }
+      ],
+      "contacts": [],
+      "documentsSent": {
+        "cv": "cv-data-analyst-v1",
+        "coverLetter": null
+      },
+      "interviews": [],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-10-30",
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "v-0018",
+      "title": "Financial Data Analyst",
+      "company": "Örnək Pərakəndə MMC",
+      "url": "https://example.com/jobs/o-rn-k-p-rak-nd-mmc-financial-data-analyst",
+      "source": "LinkedIn",
+      "location": {
+        "city": "Calgary",
+        "country": "Canada",
+        "workMode": "hybrid"
+      },
+      "salary": {
+        "min": 72000,
+        "max": 82000,
+        "currency": "CAD",
+        "period": "year"
+      },
+      "priority": 2,
+      "tags": [
+        "excel",
+        "power-bi",
+        "finance"
+      ],
+      "dates": {
+        "posted": "2026-10-17",
+        "deadline": null,
+        "applied": "2026-10-22",
+        "nextFollowUp": "2026-11-22"
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-10-20",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-10-22",
+          "note": null
+        },
+        {
+          "status": "hr_screen",
+          "date": "2026-11-04",
+          "note": null
+        },
+        {
+          "status": "test_task",
+          "date": "2026-11-12",
+          "note": "Excel model, due 2026-11-21"
+        }
+      ],
+      "contacts": [],
+      "documentsSent": {
+        "cv": "cv-data-analyst-v1",
+        "coverLetter": "cl-generic-en"
+      },
+      "interviews": [],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-10-20",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "v-0019",
+      "title": "Junior Data Scientist",
+      "company": "Misal Oyun Studiyası MMC",
+      "url": "https://example.com/jobs/misal-oyun-studiyas-mmc-junior-data-scientist",
+      "source": "Indeed",
+      "location": {
+        "city": "Berlin",
+        "country": "Germany",
+        "workMode": "remote"
+      },
+      "salary": {
+        "min": 50000,
+        "max": 60000,
+        "currency": "EUR",
+        "period": "year"
+      },
+      "priority": 2,
+      "tags": [
+        "python",
+        "ml"
+      ],
+      "dates": {
+        "posted": "2026-10-22",
+        "deadline": null,
+        "applied": "2026-10-26",
+        "nextFollowUp": null
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-10-25",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-10-26",
+          "note": null
+        },
+        {
+          "status": "hr_screen",
+          "date": "2026-11-05",
+          "note": null
+        },
+        {
+          "status": "test_task",
+          "date": "2026-11-14",
+          "note": "Churn prediction notebook"
+        }
+      ],
+      "contacts": [],
+      "documentsSent": {
+        "cv": "cv-data-analyst-v1",
+        "coverLetter": null
+      },
+      "interviews": [],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-10-25",
+      "updatedAt": "2026-11-14"
+    },
+    {
+      "id": "v-0020",
+      "title": "Data Analyst",
+      "company": "Nümunə Səhiyyə MMC",
+      "url": "https://example.com/jobs/nu-mun-s-hiyy-mmc-data-analyst",
+      "source": "boss.az",
+      "location": {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "workMode": "hybrid"
+      },
+      "salary": {
+        "min": 2400,
+        "max": 3000,
+        "currency": "AZN",
+        "period": "month"
+      },
+      "priority": 1,
+      "tags": [
+        "sql",
+        "power-bi",
+        "healthcare"
+      ],
+      "dates": {
+        "posted": "2026-10-12",
+        "deadline": null,
+        "applied": "2026-10-16",
+        "nextFollowUp": null
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-10-15",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-10-16",
+          "note": null
+        },
+        {
+          "status": "hr_screen",
+          "date": "2026-10-24",
+          "note": null
+        },
+        {
+          "status": "interview",
+          "date": "2026-11-06",
+          "note": null
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Sample HR Manager",
+          "role": "HR Manager",
+          "email": "hr@example.com",
+          "phone": null,
+          "linkedin": null
+        }
+      ],
+      "documentsSent": {
+        "cv": "cv-data-analyst-v1",
+        "coverLetter": "cl-generic-en"
+      },
+      "interviews": [
+        {
+          "date": "2026-11-06T11:00",
+          "type": "hr",
+          "with": "HR Manager",
+          "notes": "Motivation, salary range",
+          "outcome": "passed"
+        },
+        {
+          "date": "2026-11-24T14:00",
+          "type": "technical",
+          "with": "Head of Analytics",
+          "notes": "SQL + dashboard review",
+          "outcome": "pending"
+        }
+      ],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-10-15",
+      "updatedAt": "2026-11-06"
+    },
+    {
+      "id": "v-0021",
+      "title": "Analytics Consultant",
+      "company": "Test Konsaltinq MMC",
+      "url": "https://example.com/jobs/test-konsaltinq-mmc-analytics-consultant",
+      "source": "Referral",
+      "location": {
+        "city": "London",
+        "country": "United Kingdom",
+        "workMode": "hybrid"
+      },
+      "salary": {
+        "min": 45000,
+        "max": 55000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "priority": 2,
+      "tags": [
+        "sql",
+        "stakeholder-management"
+      ],
+      "dates": {
+        "posted": "2026-10-07",
+        "deadline": null,
+        "applied": "2026-10-12",
+        "nextFollowUp": null
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-10-10",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-10-12",
+          "note": null
+        },
+        {
+          "status": "hr_screen",
+          "date": "2026-10-21",
+          "note": null
+        },
+        {
+          "status": "interview",
+          "date": "2026-11-04",
+          "note": null
+        }
+      ],
+      "contacts": [],
+      "documentsSent": {
+        "cv": "cv-data-analyst-v1",
+        "coverLetter": "cl-generic-en"
+      },
+      "interviews": [
+        {
+          "date": "2026-11-04T16:00",
+          "type": "video",
+          "with": "Engagement manager",
+          "notes": "Case study",
+          "outcome": "passed"
+        },
+        {
+          "date": "2026-12-02T10:00",
+          "type": "final",
+          "with": "Partner",
+          "notes": null,
+          "outcome": "pending"
+        }
+      ],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-10-10",
+      "updatedAt": "2026-11-04"
+    },
+    {
+      "id": "v-0022",
+      "title": "BI Specialist",
+      "company": "Örnək Tikinti MMC",
+      "url": "https://example.com/jobs/o-rn-k-tikinti-mmc-bi-specialist",
+      "source": "hh.az",
+      "location": {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "workMode": "onsite"
+      },
+      "salary": {
+        "min": 2800,
+        "max": 3300,
+        "currency": "AZN",
+        "period": "month"
+      },
+      "priority": 2,
+      "tags": [
+        "power-bi",
+        "sql"
+      ],
+      "dates": {
+        "posted": "2026-09-12",
+        "deadline": null,
+        "applied": "2026-09-17",
+        "nextFollowUp": "2026-11-21"
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-09-15",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-09-17",
+          "note": null
+        },
+        {
+          "status": "hr_screen",
+          "date": "2026-09-25",
+          "note": null
+        },
+        {
+          "status": "interview",
+          "date": "2026-10-06",
+          "note": null
+        },
+        {
+          "status": "offer",
+          "date": "2026-11-14",
+          "note": "Below expectations, negotiating"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Sample Hiring Manager",
+          "role": "BI Team Lead",
+          "email": "bi-lead@example.com",
+          "phone": null,
+          "linkedin": null
+        }
+      ],
+      "documentsSent": {
+        "cv": "cv-bi-developer-v1",
+        "coverLetter": null
+      },
+      "interviews": [
+        {
+          "date": "2026-10-06T10:00",
+          "type": "technical",
+          "with": "BI Team Lead",
+          "notes": null,
+          "outcome": "passed"
+        },
+        {
+          "date": "2026-10-20T15:00",
+          "type": "final",
+          "with": "CFO",
+          "notes": null,
+          "outcome": "passed"
+        }
+      ],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-09-15",
+      "updatedAt": "2026-11-14"
+    },
+    {
+      "id": "v-0023",
+      "title": "Senior BI Analyst",
+      "company": "Sınaq Logistik Həllər MMC",
+      "url": "https://example.com/jobs/s-naq-logistik-h-ll-r-mmc-senior-bi-analyst",
+      "source": "LinkedIn",
+      "location": {
+        "city": "Toronto",
+        "country": "Canada",
+        "workMode": "hybrid"
+      },
+      "salary": {
+        "min": 95000,
+        "max": 110000,
+        "currency": "CAD",
+        "period": "year"
+      },
+      "priority": 1,
+      "tags": [
+        "power-bi",
+        "sql",
+        "python"
+      ],
+      "dates": {
+        "posted": "2026-09-17",
+        "deadline": null,
+        "applied": "2026-09-22",
+        "nextFollowUp": null
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-09-20",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-09-22",
+          "note": null
+        },
+        {
+          "status": "hr_screen",
+          "date": "2026-10-01",
+          "note": null
+        },
+        {
+          "status": "rejected",
+          "date": "2026-10-09",
+          "note": "Wanted local work experience"
+        }
+      ],
+      "contacts": [],
+      "documentsSent": {
+        "cv": "cv-bi-developer-v1",
+        "coverLetter": "cl-generic-en"
+      },
+      "interviews": [],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-09-20",
+      "updatedAt": "2026-10-09"
+    },
+    {
+      "id": "v-0024",
+      "title": "Data Analyst",
+      "company": "Nümunə Daşınmaz Əmlak MMC",
+      "url": "https://example.com/jobs/nu-mun-das-nmaz-mlak-mmc-data-analyst",
+      "source": "boss.az",
+      "location": {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "workMode": "onsite"
+      },
+      "salary": {
+        "min": 1500,
+        "max": 1900,
+        "currency": "AZN",
+        "period": "month"
+      },
+      "priority": 3,
+      "tags": [
+        "excel"
+      ],
+      "dates": {
+        "posted": "2026-09-28",
+        "deadline": null,
+        "applied": "2026-10-02",
+        "nextFollowUp": null
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-10-01",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-10-02",
+          "note": null
+        },
+        {
+          "status": "rejected",
+          "date": "2026-10-15",
+          "note": "Automated rejection email"
+        }
+      ],
+      "contacts": [],
+      "documentsSent": {
+        "cv": "cv-data-analyst-v1",
+        "coverLetter": null
+      },
+      "interviews": [],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-10-01",
+      "updatedAt": "2026-10-15"
+    },
+    {
+      "id": "v-0025",
+      "title": "Data Engineer",
+      "company": "Misal Fintex MMC",
+      "url": "https://example.com/jobs/misal-fintex-mmc-data-engineer",
+      "source": "LinkedIn",
+      "location": {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "workMode": "hybrid"
+      },
+      "salary": {
+        "min": 3500,
+        "max": 4500,
+        "currency": "AZN",
+        "period": "month"
+      },
+      "priority": 2,
+      "tags": [
+        "python",
+        "airflow"
+      ],
+      "dates": {
+        "posted": "2026-09-25",
+        "deadline": null,
+        "applied": "2026-09-30",
+        "nextFollowUp": null
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-09-28",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-09-30",
+          "note": null
+        },
+        {
+          "status": "hr_screen",
+          "date": "2026-10-07",
+          "note": null
+        },
+        {
+          "status": "withdrawn",
+          "date": "2026-10-14",
+          "note": "Role is mostly on-call pipeline support"
+        }
+      ],
+      "contacts": [],
+      "documentsSent": {
+        "cv": "cv-data-analyst-v1",
+        "coverLetter": null
+      },
+      "interviews": [],
+      "notes": null,
+      "archived": true,
+      "createdAt": "2026-09-28",
+      "updatedAt": "2026-10-14"
+    },
+    {
+      "id": "v-0026",
+      "title": "Data Analyst",
+      "company": "Demo Aqro MMC",
+      "url": "https://example.com/jobs/demo-aqro-mmc-data-analyst",
+      "source": "Indeed",
+      "location": {
+        "city": "Ottawa",
+        "country": "Canada",
+        "workMode": "onsite"
+      },
+      "salary": {
+        "min": 65000,
+        "max": 72000,
+        "currency": "CAD",
+        "period": "year"
+      },
+      "priority": 3,
+      "tags": [
+        "sql",
+        "excel"
+      ],
+      "dates": {
+        "posted": "2026-09-02",
+        "deadline": null,
+        "applied": "2026-09-08",
+        "nextFollowUp": null
+      },
+      "statusHistory": [
+        {
+          "status": "saved",
+          "date": "2026-09-05",
+          "note": null
+        },
+        {
+          "status": "applied",
+          "date": "2026-09-08",
+          "note": null
+        },
+        {
+          "status": "no_response",
+          "date": "2026-10-15",
+          "note": "No reply after 5 weeks"
+        }
+      ],
+      "contacts": [],
+      "documentsSent": {
+        "cv": "cv-data-analyst-v1",
+        "coverLetter": null
+      },
+      "interviews": [],
+      "notes": null,
+      "archived": false,
+      "createdAt": "2026-09-05",
+      "updatedAt": "2026-10-15"
     }
   ]
 }
